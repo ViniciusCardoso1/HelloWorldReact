@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+  color: greenyellow;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+  background-color: black;
+  color: greenyellow;
+  border: 1px dashed greenyellow;
+  padding: 0.5rem;
+  /*border-color: greenyellow;
+  border-width: 1px;
+  border-style: dashed;*/
+}
+
+input:focus{
+  border: 1px;
+}
+
+button{
+  background-color: black;
+  color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1rem;
+  border-color: 1px solid greenyellow;
+}
+
+button:focus{
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+}
