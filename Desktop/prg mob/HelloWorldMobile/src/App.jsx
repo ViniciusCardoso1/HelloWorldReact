@@ -1,12 +1,14 @@
 
 import './App.css'
-import HelloWorld from './assets/hello-word/HelloWorld'
+import Calculadora from './assets/calculadora/Calculadora'
+import CalculadoraIMC from './assets/imc/Imc'
 
 function App() {
   
 
   return (
-    <HelloWorld ></HelloWorld>
+    //<CalculadoraIMC ></CalculadoraIMC>
+    <Calculadora></Calculadora>
   )
 }
 
